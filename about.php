@@ -35,7 +35,7 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 			<div class="row">
 				<div class="span4">
 					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="cari barang">
+						<input type="text" class="input-block-level search-query" Placeholder="">
 					</form>
 				</div>
 				
@@ -49,8 +49,14 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 						<ul>
 							<li><a href="./index.php">Homepage</a></li>  
 							<li><a href="./products.php">Produk</a></li>
-							<li><a href="./contact.php">kontak</a></li>
-							<li><a href="./about.php">Tentang kami</a></li>	
+							<li><a href="#">Pemesanan</a>
+								<ul>
+									<li><a href="https://api.whatsapp.com/send?phone=6287839020399">Lewat whatsapp</a></li>
+									<li><a href="mailto:edisoebanto55@gmail.com">lewat email</a></li>
+									<li><a href="https://www.instagram.com/viea_craftjogja/">lewat instagram</a></li>
+								</ul>
+							</li>
+							<li><a href="./about.php">Tentang kami</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -60,11 +66,20 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 				<h4><span>About Me</span></h4>
 			</section>
 			<section>
-				<h5>Kami pengrajin benang macrame, banana basket, enceng, afia dan seagress.</h5>
-				<h5>Bisa custom ukuran,bentuk,motif</h5>
-				<h5>Viea Craft Jogja</h5>
-				<h5>Rejowinangun, Rt.50 Rw.08 Kotagede, Yogyakarta.</h5>
-				<h5>Melayani pesanan aneka barang kerajinan benang makram,banana,enceng,pandan dll,melayani harga grosir dan eceran</h5>
+				<p>Kami pengrajin benang macrame, banana basket, enceng, afia dan seagress.</p>
+				<p>Bisa custom ukuran,bentuk,motif</p>
+				<p>Viea Craft Jogja</p>
+				<p>Rejowinangun, Rt.50 Rw.08 Kotagede, Yogyakarta.</p>
+				<p>Melayani pesanan aneka barang kerajinan benang makram,banana,enceng,pandan dll,melayani harga grosir dan eceran</p><br>
+				<h5>Pak Edi Subantop</h5>
+							<p><strong>Phone 1:</strong>&nbsp;+6287839020399<br>
+							<p><strong>Phone 2:</strong>&nbsp;+6287875076024<br>
+								
+							
+							<strong>Email:</strong>&nbsp;<a href="#">edisoebanto55@gmail.com</a>								
+							</p>
+							<p class="logo"><a href="https://www.instagram.com/viea_craftjogja/"><img src="themes/images/instagram.png" class="site_logo" alt=""></p></a>
+							<br/>
 
 				
 			</section>
@@ -95,14 +110,13 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 				</div>	
 			</section>
 			<section id="copyright">
-				<span>Copyright 2013 bootstrappage template  All right reserved.</span>
 			</section>
 		</div>
 		<!-- GetButton.io widget -->
 <script type="text/javascript">
     (function () {
         var options = {
-            whatsapp: "+6281215958940", // WhatsApp number
+            whatsapp: "+6287839020399", // WhatsApp number
             call_to_action: "Message us", // Call to action
             position: "left", // Position may be 'right' or 'left'
         };

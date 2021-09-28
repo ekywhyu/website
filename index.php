@@ -38,7 +38,7 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 			<div class="row">
 				<div class="span4">
 					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="cari barang">
+						<input type="text" class="input-block-level search-query" Placeholder="">
 
 					</form>
 				</div>
@@ -52,7 +52,13 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 						<ul>
 							<li><a href="./index.php">Homepage</a></li>  
 							<li><a href="./products.php">Produk</a></li>
-							<li><a href="./contact.php">kontak</a></li>
+							<li><a href="#">Pemesanan</a>
+								<ul>
+									<li><a href="https://api.whatsapp.com/send?phone=6287839020399">Lewat whatsapp</a></li>
+									<li><a href="mailto:edisoebanto55@gmail.com">lewat email</a></li>
+									<li><a href="https://www.instagram.com/viea_craftjogja/">lewat instagram</a></li>
+								</ul>
+							</li>
 							<li><a href="./about.php">Tentang kami</a></li>	
 						</ul>
 					</nav>
@@ -81,7 +87,7 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 						<div class="row">
 							<div class="span12">
 								<h4 class="title">
-									<span class="pull-left"><span class="text"><span class="line">Foto <strong>Produk</strong></span></span></span>
+									<span class="pull-left"><span class="text"><span class="line"><strong>Produk</strong></span></span></span>
 									<span class="pull-right">
 										<a class="left button" href="#myCarousel" data-slide="prev"></a><a class="right button" href="#myCarousel" data-slide="next"></a>
 									</span>
@@ -136,14 +142,14 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 												<li class="span3">
 													<div class="product-box">
 													<span class="sale_tag"></span>												
-													<img alt="" src="themes/images/ladies/detail/29.jpg">
+													<img alt="" src="themes/images/ladies/detail/035.jpg">
 									
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">												
 													<span class="sale_tag"></span>
-													<img alt="" src="themes/images/ladies/detail/30.jpg">
+													<img alt="" src="themes/images/ladies/detail/032.jpg">
 									
 													</div>
 												</li>																																	
@@ -208,8 +214,7 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 								<div class="service">
 									<div class="responsive">	
 										<img src="themes/images/feature_img_2.png" alt="" />
-										<h4>MODERN <strong>DESIGN</strong></h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and printing industry unknown printer.</p>									
+										<h4>MODERN <strong>DESIGN</strong></h4>								
 									</div>
 								</div>
 							</div>
@@ -218,7 +223,6 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 									<div class="customize">			
 										<img src="themes/images/feature_img_1.png" alt="" />
 										<h4>FREE <strong>SHIPPING</strong></h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and printing industry unknown printer.</p>
 									</div>
 								</div>
 							</div>
@@ -227,7 +231,6 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 									<div class="support">	
 										<img src="themes/images/feature_img_3.png" alt="" />
 										<h4>24/7 LIVE <strong>SUPPORT</strong></h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and printing industry unknown printer.</p>
 									</div>
 								</div>
 							</div>	
@@ -283,14 +286,14 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 				</div>	
 			</section>
 			<section id="copyright">
-				<span>Copyright 2013 bootstrappage template  All right reserved.</span>
+				
 			</section>
 		</div>
 		<!-- GetButton.io widget -->
 <script type="text/javascript">
     (function () {
         var options = {
-            whatsapp: "+6281215958940", // WhatsApp number
+            whatsapp: "+6287839020399", // WhatsApp number
             call_to_action: "Message us", // Call to action
             position: "left", // Position may be 'right' or 'left'
         };

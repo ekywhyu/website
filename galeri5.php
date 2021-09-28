@@ -35,7 +35,7 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 			<div class="row">
 				<div class="span4">
 					<form method="POST" class="search_form">
-						<input type="text" class="input-block-level search-query" Placeholder="cari barang">
+						<input type="text" class="input-block-level search-query" Placeholder="">
 					</form>
 				</div>
 				
@@ -49,8 +49,14 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 						<ul>
 							<li><a href="./index.php">Homepage</a></li>  
 							<li><a href="./products.php">Produk</a></li>
-							<li><a href="./contact.php">kontak</a></li>
-							<li><a href="./about.php">Tentang kami</a></li>	
+							<li><a href="#">Pemesanan</a>
+								<ul>
+									<li><a href="https://api.whatsapp.com/send?phone=6287839020399">Lewat whatsapp</a></li>
+									<li><a href="mailto:edisoebanto55@gmail.com">lewat email</a></li>
+									<li><a href="https://www.instagram.com/viea_craftjogja/">lewat instagram</a></li>
+								</ul>
+							</li>
+							<li><a href="./about.php">Tentang kami</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -61,7 +67,7 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 			</section>
 			<section class="main-content">
 				
-				<div class="row">						
+			<div class="row">						
 					<div class="span9">								
 						<ul class="thumbnails listing-products">
 
@@ -211,14 +217,13 @@ $konek = mysqli_connect('localhost','root','', 'KerjaPraktek');
 				</div>	
 			</section>
 			<section id="copyright">
-				<span>Copyright 2013 bootstrappage template  All right reserved.</span>
 			</section>
 		</div>
 		<!-- GetButton.io widget -->
 <script type="text/javascript">
     (function () {
         var options = {
-            whatsapp: "+6281215958940", // WhatsApp number
+            whatsapp: "+6287839020399", // WhatsApp number
             call_to_action: "Message us", // Call to action
             position: "left", // Position may be 'right' or 'left'
         };
